@@ -1,0 +1,1002 @@
+{
+    "uid": "37f46147-7d0b-442c-a011-37dcad9b753a",
+    "name": "8_Default_NeuralNetwork_Stacked",
+    "preprocessing": [
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.887853032499089,
+                        13.917342484278274,
+                        0.48496472462704243,
+                        7.450481338922328
+                    ],
+                    "mean": [
+                        12.373015873015873,
+                        17.973544973544975,
+                        0.6216931216931217,
+                        5.375661375661376
+                    ],
+                    "var": [
+                        8.339695137314184,
+                        193.69242182469696,
+                        0.23519078413258307,
+                        55.509672181629846
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.49446460536844333
+                ],
+                "mean": [
+                    1.726333127795
+                ],
+                "var": [
+                    0.24449524596217043
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.7930595013176776,
+                        13.849495153217397,
+                        0.48562090605645564,
+                        7.460499922718971
+                    ],
+                    "mean": [
+                        12.433862433862434,
+                        17.634920634920636,
+                        0.6190476190476191,
+                        5.177248677248677
+                    ],
+                    "var": [
+                        7.801181377900955,
+                        191.8085159989922,
+                        0.2358276643990929,
+                        55.65905909688978
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.4870131887180368
+                ],
+                "mean": [
+                    1.720314974528333
+                ],
+                "var": [
+                    0.2371818459853101
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.8120000745464395,
+                        13.641036923818836,
+                        0.48749802152178456,
+                        7.202516384323879
+                    ],
+                    "mean": [
+                        12.436507936507937,
+                        17.552910052910054,
+                        0.6111111111111112,
+                        5.298941798941799
+                    ],
+                    "var": [
+                        7.907344419249182,
+                        186.07788835698884,
+                        0.23765432098765435,
+                        51.876242266453914
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5054331535562928
+                ],
+                "mean": [
+                    1.7323130291346447
+                ],
+                "var": [
+                    0.25546267271385903
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.9284423768184653,
+                        13.836954046180542,
+                        0.4862618094166024,
+                        7.367456512928438
+                    ],
+                    "mean": [
+                        12.547619047619047,
+                        17.51851851851852,
+                        0.6164021164021164,
+                        5.301587301587301
+                    ],
+                    "var": [
+                        8.575774754346183,
+                        191.4612972761121,
+                        0.23645054729710815,
+                        54.27941546989167
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5024220603326941
+                ],
+                "mean": [
+                    1.7373324568470574
+                ],
+                "var": [
+                    0.2524279267089493
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.933341159124371,
+                        13.610898235181084,
+                        0.48360627735181344,
+                        7.284490854156053
+                    ],
+                    "mean": [
+                        12.497354497354497,
+                        17.563492063492063,
+                        0.626984126984127,
+                        5.246031746031746
+                    ],
+                    "var": [
+                        8.604490355813107,
+                        185.25655076845553,
+                        0.2338750314940791,
+                        53.06380700428319
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5048909898599935
+                ],
+                "mean": [
+                    1.7487526742234458
+                ],
+                "var": [
+                    0.254914911641804
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.8936055164548,
+                        13.885622190788515,
+                        0.4842932030264089,
+                        7.63964230463089
+                    ],
+                    "mean": [
+                        12.563492063492063,
+                        17.51851851851852,
+                        0.6243386243386243,
+                        5.5476190476190474
+                    ],
+                    "var": [
+                        8.372952884857648,
+                        192.81050362531843,
+                        0.23453990649757847,
+                        58.36413454270597
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5102065239204704
+                ],
+                "mean": [
+                    1.7440395699316997
+                ],
+                "var": [
+                    0.2603106970510095
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.7763816093199387,
+                        13.228256328333234,
+                        0.4842932030264089,
+                        7.2718477434084505
+                    ],
+                    "mean": [
+                        12.544973544973544,
+                        17.002645502645503,
+                        0.6243386243386243,
+                        5.108465608465608
+                    ],
+                    "var": [
+                        7.708294840569973,
+                        174.98676548808825,
+                        0.23453990649757847,
+                        52.87976960331458
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.49685662996129054
+                ],
+                "mean": [
+                    1.733136508870792
+                ],
+                "var": [
+                    0.24686651073649082
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.9181860851759933,
+                        13.958332064168895,
+                        0.4862618094166024,
+                        7.590049903313118
+                    ],
+                    "mean": [
+                        12.436507936507937,
+                        17.785714285714285,
+                        0.6164021164021164,
+                        5.37037037037037
+                    ],
+                    "var": [
+                        8.51581002771479,
+                        194.83503401360548,
+                        0.23645054729710815,
+                        57.60885753478347
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.507888878025903
+                ],
+                "mean": [
+                    1.7357933028357655
+                ],
+                "var": [
+                    0.2579511124224106
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.915723191414946,
+                        13.99080195709282,
+                        0.48809344574598146,
+                        7.315363508798863
+                    ],
+                    "mean": [
+                        12.44973544973545,
+                        17.6005291005291,
+                        0.6084656084656085,
+                        5.354497354497354
+                    ],
+                    "var": [
+                        8.501441728954957,
+                        195.7425394025923,
+                        0.23823521178018536,
+                        53.51454326586602
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5866462475540831
+                ],
+                "mean": [
+                    1.5265742191156226
+                ],
+                "var": [
+                    0.34415381976928655
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    1.5
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        },
+        {
+            "scale": [
+                {
+                    "scale": [
+                        2.832809618674876,
+                        13.829116278420544,
+                        0.48496472462704243,
+                        7.3961251948865145
+                    ],
+                    "mean": [
+                        12.383597883597883,
+                        17.706349206349206,
+                        0.6216931216931217,
+                        5.386243386243386
+                    ],
+                    "var": [
+                        8.024810335656896,
+                        191.2444570420761,
+                        0.23519078413258307,
+                        54.70266789843509
+                    ],
+                    "n_samples_seen": 378,
+                    "n_features_in": 4,
+                    "columns": [
+                        "educ",
+                        "exper",
+                        "married",
+                        "tenure"
+                    ],
+                    "scale_method": "scale_normal"
+                }
+            ],
+            "scale_y": {
+                "scale": [
+                    0.5025873932599005
+                ],
+                "mean": [
+                    1.7275939329014613
+                ],
+                "var": [
+                    0.25259408786378196
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {
+                    "educ": [
+                        "scale_normal"
+                    ],
+                    "exper": [
+                        "scale_normal"
+                    ],
+                    "married": [
+                        "scale_normal"
+                    ],
+                    "tenure": [
+                        "scale_normal"
+                    ]
+                },
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression"
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "522e7944-814c-479a-bc72-f939083f31ca",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "126dd552-dd18-4dc6-bd6f-bcb609230968",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "193fc4d9-ca5b-4aba-900c-548f856dc398",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "c06cdec5-e45a-424e-823e-1c7c843a1032",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "43a422a0-1ac9-468a-aed8-301d6bf39552",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "145f5d8a-774f-4dbe-880b-5cc0fcaf9d76",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "151d77d2-fb4c-41b3-bca1-2ecf0405c931",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5fb26036-3c1f-4dfb-955f-cd6a74e13cca",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "5eac49ff-d17d-4493-ac1b-b6ed42efcca2",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "1.2.2",
+            "algorithm_name": "Neural Network",
+            "algorithm_short_name": "Neural Network",
+            "uid": "01d9284a-8369-4e02-9a76-6602d146ea9e",
+            "params": {
+                "model_type": "Neural Network",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "dense_1_size": 32,
+                "dense_2_size": 16,
+                "learning_rate": 0.05,
+                "seed": 8,
+                "explain_level": 1
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {
+                "educ": [
+                    "scale_normal"
+                ],
+                "exper": [
+                    "scale_normal"
+                ],
+                "married": [
+                    "scale_normal"
+                ],
+                "tenure": [
+                    "scale_normal"
+                ]
+            },
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression"
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 10,
+            "shuffle": true,
+            "random_seed": 123,
+            "X_path": "AutoML_6/X_stacked.data",
+            "y_path": "AutoML_6/y.data",
+            "results_path": "AutoML_6"
+        },
+        "learner": {
+            "model_type": "Neural Network",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "dense_1_size": 32,
+            "dense_2_size": 16,
+            "learning_rate": 0.05,
+            "seed": 8,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "8_Default_NeuralNetwork_Stacked",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_stacked",
+        "max_time_for_learner": 17280.0,
+        "is_stacked": true
+    },
+    "saved": [
+        "8_Default_NeuralNetwork_Stacked/learner_fold_0.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_1.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_2.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_3.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_4.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_5.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_6.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_7.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_8.neural_network",
+        "8_Default_NeuralNetwork_Stacked/learner_fold_9.neural_network"
+    ],
+    "predictions_fname": "8_Default_NeuralNetwork_Stacked/predictions_out_of_folds.csv",
+    "metric_name": "mse",
+    "final_loss": "11.882196760355601",
+    "train_time": 45.583158016204834,
+    "is_stacked": true,
+    "joblib_version": "1.3.2"
+}

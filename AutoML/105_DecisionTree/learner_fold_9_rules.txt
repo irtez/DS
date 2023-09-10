@@ -1,0 +1,8 @@
+if (educ <= 15.5) and (tenure <= 2.5) then response: 4.085 | based on 163 samples
+
+if (educ <= 15.5) and (tenure > 2.5) then response: 6.541 | based on 152 samples
+
+if (educ > 15.5) and (exper <= 12.0) then response: 7.175 | based on 35 samples
+
+if (educ > 15.5) and (exper > 12.0) then response: 12.631 | based on 28 samples
+

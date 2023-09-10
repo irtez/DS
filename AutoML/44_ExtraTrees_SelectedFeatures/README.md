@@ -1,0 +1,55 @@
+# Summary of 44_ExtraTrees_SelectedFeatures
+
+[<< Go back](../README.md)
+
+
+## Extra Trees Regressor (Extra Trees)
+- **n_jobs**: -1
+- **criterion**: squared_error
+- **max_features**: 1.0
+- **min_samples_split**: 40
+- **max_depth**: 7
+- **eval_metric_name**: mse
+- **explain_level**: 1
+
+## Validation
+ - **validation_type**: kfold
+ - **k_folds**: 10
+ - **shuffle**: True
+ - **random_seed**: 123
+
+## Optimized metric
+mse
+
+## Training time
+
+27.0 seconds
+
+### Metric details:
+| Metric   |     Score |
+|:---------|----------:|
+| MAE      |  2.30024  |
+| MSE      | 12.7476   |
+| RMSE     |  3.57038  |
+| R2       |  0.162569 |
+| MAPE     |  0.387152 |
+
+
+
+## Learning curves
+![Learning curves](learning_curves.png)
+
+## Permutation-based Importance
+![Permutation-based Importance](permutation_importance.png)
+## True vs Predicted
+
+![True vs Predicted](true_vs_predicted.png)
+
+
+## Predicted vs Residuals
+
+![Predicted vs Residuals](predicted_vs_residuals.png)
+
+
+
+[<< Go back](../README.md)

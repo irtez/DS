@@ -1,0 +1,817 @@
+{
+    "uid": "8da9422c-112e-4029-9393-835ec6aafacf",
+    "name": "16_Xgboost_KMeansFeatures",
+    "preprocessing": [
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_0.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.49446460536844333
+                ],
+                "mean": [
+                    1.726333127795
+                ],
+                "var": [
+                    0.24449524596217043
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_1.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.4870131887180368
+                ],
+                "mean": [
+                    1.720314974528333
+                ],
+                "var": [
+                    0.2371818459853101
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_2.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5054331535562928
+                ],
+                "mean": [
+                    1.7323130291346447
+                ],
+                "var": [
+                    0.25546267271385903
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_3.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5024220603326941
+                ],
+                "mean": [
+                    1.7373324568470574
+                ],
+                "var": [
+                    0.2524279267089493
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_4.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5048909898599935
+                ],
+                "mean": [
+                    1.7487526742234458
+                ],
+                "var": [
+                    0.254914911641804
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_5.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5102065239204704
+                ],
+                "mean": [
+                    1.7440395699316997
+                ],
+                "var": [
+                    0.2603106970510095
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_6.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.49685662996129054
+                ],
+                "mean": [
+                    1.733136508870792
+                ],
+                "var": [
+                    0.24686651073649082
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_7.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.507888878025903
+                ],
+                "mean": [
+                    1.7357933028357655
+                ],
+                "var": [
+                    0.2579511124224106
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_8.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5866462475540831
+                ],
+                "mean": [
+                    1.5265742191156226
+                ],
+                "var": [
+                    0.34415381976928655
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    1.5
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        },
+        {
+            "kmeans": {
+                "new_features": [
+                    "Dist_Cluster_0",
+                    "Dist_Cluster_1",
+                    "Dist_Cluster_2",
+                    "Dist_Cluster_3",
+                    "Dist_Cluster_4",
+                    "Cluster"
+                ],
+                "result_file": "16_Xgboost_KMeansFeatures/kmeans_fold_9.joblib",
+                "input_columns": [
+                    "educ",
+                    "exper",
+                    "married",
+                    "female",
+                    "tenure"
+                ]
+            },
+            "scale_y": {
+                "scale": [
+                    0.5025873932599005
+                ],
+                "mean": [
+                    1.7275939329014613
+                ],
+                "var": [
+                    0.25259408786378196
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "kmeans_features": {
+                    "results_path": "AutoML_6"
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "ea82abfd-c3e5-48ff-bb4c-4e030114b73c",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 100
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "3824972e-cf66-437b-96c0-ab42bc345581",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 109
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "a043cbbe-6111-423f-a39c-ad7f92caa1aa",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 39
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "8cb4934a-4640-4d48-8007-ae25add10249",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 38
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "4688e68f-23c8-472f-8ccf-93101b06cf57",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 169
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "a97eb3da-48d3-49f5-b907-54d0b076bb3b",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_5",
+            "best_ntree_limit": 25
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "194eec38-86fb-4aa6-bf23-68fe69760657",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_6",
+            "best_ntree_limit": 31
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "16145477-9ffd-4389-8ae5-2775f125040b",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_7",
+            "best_ntree_limit": 29
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "0b1b6ece-6406-49fb-90c1-44ceb6828ad2",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_8",
+            "best_ntree_limit": 64
+        },
+        {
+            "library_version": "1.7.6",
+            "algorithm_name": "Extreme Gradient Boosting",
+            "algorithm_short_name": "Xgboost",
+            "uid": "2b78392a-57af-4fba-b846-893dc1ec7d90",
+            "params": {
+                "model_type": "Xgboost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "reg:squarederror",
+                "eta": 0.1,
+                "max_depth": 6,
+                "min_child_weight": 50,
+                "subsample": 0.9,
+                "colsample_bytree": 0.7,
+                "eval_metric": "mse",
+                "explain_level": 1
+            },
+            "name": "learner_fold_9",
+            "best_ntree_limit": 76
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression",
+            "kmeans_features": {
+                "results_path": "AutoML_6"
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 10,
+            "shuffle": true,
+            "random_seed": 123,
+            "X_path": "AutoML_6/X.data",
+            "y_path": "AutoML_6/y.data",
+            "results_path": "AutoML_6"
+        },
+        "learner": {
+            "model_type": "Xgboost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1239,
+            "objective": "reg:squarederror",
+            "eta": 0.1,
+            "max_depth": 6,
+            "min_child_weight": 50,
+            "subsample": 0.9,
+            "colsample_bytree": 0.7,
+            "eval_metric": "mse",
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "16_Xgboost_KMeansFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_kmeans_features",
+        "max_time_for_learner": 17280.0
+    },
+    "saved": [
+        "16_Xgboost_KMeansFeatures/learner_fold_0.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_1.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_2.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_3.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_4.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_5.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_6.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_7.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_8.xgboost",
+        "16_Xgboost_KMeansFeatures/learner_fold_9.xgboost"
+    ],
+    "predictions_fname": "16_Xgboost_KMeansFeatures/predictions_out_of_folds.csv",
+    "metric_name": "mse",
+    "final_loss": "8.830147927360985",
+    "train_time": 20.161147117614746,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

@@ -1,0 +1,1430 @@
+{
+    "uid": "05ec2628-42a7-4890-ac49-ae0f09e90b6a",
+    "name": "25_LightGBM_GoldenFeatures",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.49446460536844333
+                ],
+                "mean": [
+                    1.726333127795
+                ],
+                "var": [
+                    0.24449524596217043
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.4870131887180368
+                ],
+                "mean": [
+                    1.720314974528333
+                ],
+                "var": [
+                    0.2371818459853101
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5054331535562928
+                ],
+                "mean": [
+                    1.7323130291346447
+                ],
+                "var": [
+                    0.25546267271385903
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5024220603326941
+                ],
+                "mean": [
+                    1.7373324568470574
+                ],
+                "var": [
+                    0.2524279267089493
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5048909898599935
+                ],
+                "mean": [
+                    1.7487526742234458
+                ],
+                "var": [
+                    0.254914911641804
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5102065239204704
+                ],
+                "mean": [
+                    1.7440395699316997
+                ],
+                "var": [
+                    0.2603106970510095
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.49685662996129054
+                ],
+                "mean": [
+                    1.733136508870792
+                ],
+                "var": [
+                    0.24686651073649082
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.507888878025903
+                ],
+                "mean": [
+                    1.7357933028357655
+                ],
+                "var": [
+                    0.2579511124224106
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5866462475540831
+                ],
+                "mean": [
+                    1.5265742191156226
+                ],
+                "var": [
+                    0.34415381976928655
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    1.5
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.7601208697
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8172646789
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8207727687
+                    },
+                    {
+                        "feature1": "married",
+                        "feature2": "female",
+                        "operation": "diff",
+                        "score": 0.8285581085
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "ratio",
+                        "score": 0.8408742178
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "educ",
+                        "operation": "multiply",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "educ",
+                        "feature2": "female",
+                        "operation": "ratio",
+                        "score": 0.8436040051
+                    },
+                    {
+                        "feature1": "tenure",
+                        "feature2": "educ",
+                        "operation": "sum",
+                        "score": 0.8540596193
+                    },
+                    {
+                        "feature1": "exper",
+                        "feature2": "tenure",
+                        "operation": "ratio",
+                        "score": 0.8895183608
+                    },
+                    {
+                        "feature1": "female",
+                        "feature2": "exper",
+                        "operation": "ratio",
+                        "score": 0.8926993956
+                    }
+                ],
+                "new_columns": [
+                    "educ_diff_female",
+                    "married_sum_educ",
+                    "female_sum_educ",
+                    "married_diff_female",
+                    "female_ratio_educ",
+                    "female_multiply_educ",
+                    "educ_ratio_female",
+                    "tenure_sum_educ",
+                    "exper_ratio_tenure",
+                    "female_ratio_exper"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    0.5025873932599005
+                ],
+                "mean": [
+                    1.7275939329014613
+                ],
+                "var": [
+                    0.25259408786378196
+                ],
+                "n_samples_seen": 378,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_log_and_normal",
+                "X_min_values": [
+                    0.5299999713897705
+                ]
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_log_and_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_6",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "ec4dc3a8-7185-4bdf-87ef-a6546f55757d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_0"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "f0d5055c-deb5-40be-80d9-4fe697deb4f7",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_1"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "fb8554f1-7f10-4931-a9d1-8fe54486643d",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_2"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "d17d794c-bde5-4672-9b7f-1f45a3b82de1",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_3"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "b5ca783c-4a2c-4512-8525-e658998120b4",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_4"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "6c0bff8f-2720-49f1-8913-f8d90182fd38",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_5"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "441727aa-5d11-4789-8408-c036b1c642a2",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_6"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "194efe43-e552-4111-a55f-829891898377",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_7"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "a595b2b7-530e-4ef7-9f7c-cb05931fb3e6",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_8"
+        },
+        {
+            "library_version": "4.0.0",
+            "algorithm_name": "LightGBM",
+            "algorithm_short_name": "LightGBM",
+            "uid": "2467b3ac-b664-483d-9481-4cd6e398d842",
+            "params": {
+                "model_type": "LightGBM",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 1239,
+                "objective": "regression",
+                "num_leaves": 63,
+                "learning_rate": 0.2,
+                "feature_fraction": 0.5,
+                "bagging_fraction": 1.0,
+                "min_data_in_leaf": 30,
+                "metric": "l2",
+                "custom_eval_metric_name": null,
+                "explain_level": 1
+            },
+            "name": "learner_fold_9"
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_log_and_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_6",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "k_folds": 10,
+            "shuffle": true,
+            "random_seed": 123,
+            "X_path": "AutoML_6/X.data",
+            "y_path": "AutoML_6/y.data",
+            "results_path": "AutoML_6"
+        },
+        "learner": {
+            "model_type": "LightGBM",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 1239,
+            "objective": "regression",
+            "num_leaves": 63,
+            "learning_rate": 0.2,
+            "feature_fraction": 0.5,
+            "bagging_fraction": 1.0,
+            "min_data_in_leaf": 30,
+            "metric": "l2",
+            "custom_eval_metric_name": null,
+            "explain_level": 1
+        },
+        "automl_random_state": 1234,
+        "ml_task": "regression",
+        "explain_level": 1,
+        "name": "25_LightGBM_GoldenFeatures",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features",
+        "max_time_for_learner": 17280.0
+    },
+    "saved": [
+        "25_LightGBM_GoldenFeatures/learner_fold_0.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_1.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_2.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_3.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_4.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_5.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_6.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_7.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_8.lightgbm",
+        "25_LightGBM_GoldenFeatures/learner_fold_9.lightgbm"
+    ],
+    "predictions_fname": "25_LightGBM_GoldenFeatures/predictions_out_of_folds.csv",
+    "metric_name": "mse",
+    "final_loss": "8.11524519390377",
+    "train_time": 17.47566533088684,
+    "is_stacked": false,
+    "joblib_version": "1.3.2"
+}

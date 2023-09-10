@@ -1,0 +1,32 @@
+if (educ <= 15.5) and (tenure <= 2.5) and (female > 0.5) and (educ > 11.5) then response: 3.803 | based on 67 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female > 0.5) and (educ <= 14.5) then response: 4.904 | based on 59 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female <= 0.5) and (educ > 11.5) then response: 8.985 | based on 56 samples
+
+if (educ <= 15.5) and (tenure <= 2.5) and (female <= 0.5) and (exper > 7.5) then response: 5.71 | based on 35 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female <= 0.5) and (educ <= 11.5) then response: 5.145 | based on 31 samples
+
+if (educ <= 15.5) and (tenure <= 2.5) and (female <= 0.5) and (exper <= 7.5) then response: 3.794 | based on 31 samples
+
+if (educ <= 15.5) and (tenure <= 2.5) and (female > 0.5) and (educ <= 11.5) then response: 3.043 | based on 29 samples
+
+if (educ > 15.5) and (tenure <= 4.5) and (exper <= 8.5) and (tenure <= 0.5) then response: 5.441 | based on 12 samples
+
+if (educ > 15.5) and (tenure <= 4.5) and (exper <= 8.5) and (tenure > 0.5) then response: 7.383 | based on 11 samples
+
+if (educ > 15.5) and (tenure > 4.5) and (educ > 16.5) and (exper <= 28.5) then response: 14.516 | based on 10 samples
+
+if (educ > 15.5) and (tenure <= 4.5) and (exper > 8.5) and (exper <= 16.5) then response: 10.834 | based on 10 samples
+
+if (educ > 15.5) and (tenure <= 4.5) and (exper > 8.5) and (exper > 16.5) then response: 6.948 | based on 8 samples
+
+if (educ > 15.5) and (tenure > 4.5) and (educ <= 16.5) and (exper > 22.0) then response: 12.039 | based on 7 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female > 0.5) and (educ > 14.5) then response: 7.072 | based on 6 samples
+
+if (educ > 15.5) and (tenure > 4.5) and (educ <= 16.5) and (exper <= 22.0) then response: 6.202 | based on 5 samples
+
+if (educ > 15.5) and (tenure > 4.5) and (educ > 16.5) and (exper > 28.5) then response: 24.98 | based on 1 samples
+

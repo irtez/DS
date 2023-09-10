@@ -1,0 +1,16 @@
+if (educ <= 15.5) and (tenure <= 2.5) and (female > 0.5) then response: 3.582 | based on 95 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female <= 0.5) then response: 7.768 | based on 85 samples
+
+if (educ <= 15.5) and (tenure <= 2.5) and (female <= 0.5) then response: 4.787 | based on 68 samples
+
+if (educ <= 15.5) and (tenure > 2.5) and (female > 0.5) then response: 4.985 | based on 67 samples
+
+if (educ > 15.5) and (exper > 12.0) and (tenure <= 21.5) then response: 11.741 | based on 24 samples
+
+if (educ > 15.5) and (exper <= 12.0) and (tenure > 1.5) then response: 8.704 | based on 18 samples
+
+if (educ > 15.5) and (exper <= 12.0) and (tenure <= 1.5) then response: 5.556 | based on 17 samples
+
+if (educ > 15.5) and (exper > 12.0) and (tenure > 21.5) then response: 17.972 | based on 4 samples
+

@@ -1,0 +1,33 @@
+{
+    "columns": [
+        "educ",
+        "exper",
+        "married",
+        "female",
+        "tenure"
+    ],
+    "rows": 420,
+    "cols": 5,
+    "target_is_numeric": true,
+    "columns_info": {
+        "educ": [
+            "scale"
+        ],
+        "exper": [
+            "scale"
+        ],
+        "married": [
+            "scale"
+        ],
+        "female": [],
+        "tenure": [
+            "scale"
+        ]
+    },
+    "target_info": [
+        "scale_log"
+    ],
+    "n_features": 5,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false
+}

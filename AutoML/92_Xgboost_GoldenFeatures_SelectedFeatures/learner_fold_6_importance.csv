@@ -1,0 +1,8 @@
+feature,mean_importance
+tenure,0.05272274252434901
+tenure_sum_educ,0.05819278701114643
+married_sum_educ,0.07850825641858035
+female_ratio_educ,0.09130337420220128
+exper,0.12594640825332512
+married_diff_female,0.129067369772245
+educ_diff_female,0.2236708274864446

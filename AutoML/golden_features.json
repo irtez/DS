@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "educ",
+            "feature2": "female",
+            "operation": "diff",
+            "score": 0.7601208697
+        },
+        {
+            "feature1": "married",
+            "feature2": "educ",
+            "operation": "sum",
+            "score": 0.8172646789
+        },
+        {
+            "feature1": "female",
+            "feature2": "educ",
+            "operation": "sum",
+            "score": 0.8207727687
+        },
+        {
+            "feature1": "married",
+            "feature2": "female",
+            "operation": "diff",
+            "score": 0.8285581085
+        },
+        {
+            "feature1": "female",
+            "feature2": "educ",
+            "operation": "ratio",
+            "score": 0.8408742178
+        },
+        {
+            "feature1": "female",
+            "feature2": "educ",
+            "operation": "multiply",
+            "score": 0.8436040051
+        },
+        {
+            "feature1": "educ",
+            "feature2": "female",
+            "operation": "ratio",
+            "score": 0.8436040051
+        },
+        {
+            "feature1": "tenure",
+            "feature2": "educ",
+            "operation": "sum",
+            "score": 0.8540596193
+        },
+        {
+            "feature1": "exper",
+            "feature2": "tenure",
+            "operation": "ratio",
+            "score": 0.8895183608
+        },
+        {
+            "feature1": "female",
+            "feature2": "exper",
+            "operation": "ratio",
+            "score": 0.8926993956
+        }
+    ],
+    "new_columns": [
+        "educ_diff_female",
+        "married_sum_educ",
+        "female_sum_educ",
+        "married_diff_female",
+        "female_ratio_educ",
+        "female_multiply_educ",
+        "educ_ratio_female",
+        "tenure_sum_educ",
+        "exper_ratio_tenure",
+        "female_ratio_exper"
+    ],
+    "ml_task": "regression"
+}
