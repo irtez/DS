@@ -18,3 +18,4 @@
 <br>
 <a href="https://github.com/KlukvaMors/basic_stat/blob/main/конспект.ipynb">Statistics</a>
 <br>
+...
